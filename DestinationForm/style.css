@@ -8,9 +8,9 @@ body{
 .main_container{
 
     display:flex;
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
-    background-color: rebeccapurple;
+    background-image: url("https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
     padding: 10px;
 }
 
@@ -25,9 +25,12 @@ body{
 .title_container{
     display: flex;
     flex-direction: column;
-    height: 10%;
+    height: 15vh;
     width: 100vw;
-    background-color:red;
+    padding: 50px;
+    background-color:transparent;
+    color: wheat;
+    background-image: url("https://images.unsplash.com/photo-1604357209793-fca5dca89f97?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
     padding: 10px;
     
 }
@@ -37,7 +40,6 @@ input{
 }
 #card_container{
     display: flex ;
-    background-color: bisque;
     margin: 30px;
 }
 

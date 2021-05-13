@@ -27,7 +27,7 @@ function handleForm(e){
 
     let card = document.createElement('div');
     card.className = 'card';
-    card.style = "height:30%; width:40%; margin:10px"
+    card.style = "height:20%; width:30%; margin:10px"
 
     let cardBody = document.createElement('div');
     cardBody.className = 'card-body';
@@ -91,5 +91,20 @@ elt.parentElement.parentElement.parentElement.remove();
 console.log("edit clicked")
 
 var children = elt.parentElement.parentElement.children
+
+var oldDest = children[0].innerText;
+var oldPhoto = children[1].getAttribute('src');
+var oldLoc = children[2].innerText;
+var oldDesc = children[3].innerText;
+
+const newDest = prompt("New Destination",oldDest);
+const newPhoto = prompt("New Photo Url",oldPhoto);
+const newLoc = prompt("New Destination",oldLoc);
+const newDesc = prompt("New Destination",oldDesc);
+
+ children[0].innerText = newDest;
+ children[1].setAttribute('src',newPhoto) ;
+ children[2].innerText = newLoc;
+ children[3].innerText = newDesc;
 }
 }
