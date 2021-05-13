@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+   padding: 5;
+}
+
+
+.main_container{
+
+    display:flex;
+    height: 90vh;
+    width: 100vw;
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+.panel{
+    
+    width: 75%;
+    height: 95%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.title_container{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100vw;
+    background-color:red;
+    padding: 10px;
+    
+}
+
+input{
+    width: 90%;
+}
+#card_container{
+    display: flex ;
+    background-color: bisque;
+    margin: 30px;
+}
+
+#cardDiv{
+    overflow-y: scroll;
+    height: 90%;
+}
+
+#cardBox{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 10px;
+}
+
+.col-md-4{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .col-md-4 {
+        width: 100%;
+       max-width: 100%;
+    }
+}
+
+/* 
+.par_cont{
+    display: flex;
+  
+    justify-content: space-around;
+    width: fit-content;
+  }
+
+  .outer_cont{
+width: 100%;
+overflow-x: scroll;
+  } */

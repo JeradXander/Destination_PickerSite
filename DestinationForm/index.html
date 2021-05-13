@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Picker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link>
+</head>
+
+<body>
+
+    <div class="title_container">
+        <h1 style="text-align: center;">Destination Picker</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, ipsa doloribus, odio sit delectus, doloremque
+            cum debitis voluptates voluptate magni quisquam. Fuga vero voluptatum consectetur ratione error doloribus
+            vitae et?</p>
+
+        
+        
+    </div>
+    <div class="main_container">
+
+        
+
+        <div id=""class="panel" style="width: 30%; background-color: antiquewhite;">
+
+            <form id="myForm" style="width: 90%;">
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Destination name </label>
+                    <input type="text" class="form-control" id="dest"
+                        placeholder="Enter the name of the Destination" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Locaton</label>
+                    <input type="text" class="form-control" id="loc" placeholder="enter location"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-4" style="width: 100%;">
+                    <label for="validationCustom02" class="form-label" style="width: 100%;">Photo</label>
+                    <input type="text" class="form-control" id="photo" placeholder="enter url of photo"
+                     >
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Photo</label>
+                    <div class="input-group">
+                       
+                        <input type="text" class="form-control" id="desc"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button id="submit_btn" type="submit">Submit form</button>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div  class="panel" style="background-color: aquamarine; ">
+
+            <h1 style="text-align: center;">Enter Destination Details</h1>
+         
+                <div id="cardDiv">
+
+                    <div id="cardBox">
+
+
+                    </div>
+
+                </div>
+        
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
